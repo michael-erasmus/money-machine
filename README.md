@@ -21,7 +21,7 @@ docker-compose build
 docker-compose up -d
 ```
 
-You can then open the notebook [here](http://localhost:8889/notebooks/Forecast%20the%20%20S%26P%20500.ipynb)
+You can then open the notebook [here](http://localhost:8889/notebooks/Analysis.ipynb)
 
 To shut it down
 ```

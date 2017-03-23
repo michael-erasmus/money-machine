@@ -2,7 +2,7 @@ version: '2'
 services:
   notebook:
     build: .
-    #volumes:
-    #  - .:/home/jovyan/work/
+    volumes:
+      - .:/home/jovyan/work/
     ports:
       - "8889:8888"
