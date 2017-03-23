@@ -4,21 +4,24 @@
 
 Michael Erasmus
 
-#Motivation
+## Motivation
 
-## Methodology and technical details
+Code for my blog post: http://michaelerasm.us/post/money-machine
 
+## Requirements
+
+To reproduce this analysis, you'll need to have [Docker](https://www.docker.com) and [Docker Compose](https://docs.docker.com/compose/) installed.
 
 ## Analysis
-
 
 To start the Notebook environment with Jupyter running, run:
 
 ```
+docker-compose build
 docker-compose up -d
 ```
 
- You can then connect to the notebook [here](http://localhost:8688/notebooks/Buffer%20Discourse%20Data%20Analysis.ipynb#Plot-Distribution-of-posts-per-topic)
+You can then open the notebook [here](http://localhost:8889/notebooks/Forecast%20the%20%20S%26P%20500.ipynb)
 
 To shut it down
 ```
