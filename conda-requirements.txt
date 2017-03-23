@@ -1,0 +1,2 @@
+pystan
+pandas-datareader
